@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+<head>    
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Put your site description here">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fda924"> 
+    <!-- Site Properties -->    
+    <title>灵隐寺</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="static/CSS/common.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/CSS/uikit.css">
+    <link rel="stylesheet" href="static/CSS/style.css">
+</head>
+
+<body>    
+    <header data-uk-sticky="top: 400; cls-active: in-sticky">
+        <div class="uk-section uk-padding-remove-vertical">
+            <div class="uk-container">
+                <div class="uk-grid">                
+                    <div class="uk-width-1-3 uk-flex uk-flex-middle">
+                        <!-- header logo begin -->
+                        <div class="uk-grid-collapse in-header-logo" data-uk-grid="">
+                            <a href=""><img src="static/picture/logo.svg" data-src="img/logo.svg" width="195" height="44" alt="logo" data-uk-img=""></a>
+                        </div>
+                        <!-- header logo end -->
+                    </div>
+                    <div id="lottery_list_block" class="uk-width-1-3 uk-flex uk-flex-middle"> 
+                        <form id="search_form" class="form-inline" name="search" method="get" action="search">
+                        <span class="box-style">
+                            <select id="header_search_type" class="box-style round-pill">
+                                <option value="xihu">西湖</option>
+                                <option value="qiandao">千岛湖</option>
+                                <option value="xixi">西溪国家湿地公园</option>
+                                <option value="lingyin">灵隐寺</option>
+                                <option value="songcheng">宋城</option>
+                            </select>
+                        </span>
+                        <span class="box-style">
+                            <select id="main_tag" class="form-control" name="main_tag">
+                                <option value="0">历史</option>
+                                <option value="1">吃喝玩乐</option>
+                            </select>
+                        </span>
+                        <input class="box-form" type="text" placeholder="输入您所在的地级市" name="search_query" autocomplete="off" value="">  
+                        <span>
+                            <button class="box-search-block" type="submit">
+                                <i class="fa fa-search" aria-hidden="true" style="color: #ff7a00;" >
+                                搜索
+                                </i>
+                            </button>
+                        </span>
+                        </form>
+                    </div>
+                    <div class="uk-width-1-3 uk-visible@m in-header-info">
+                        <div class="in-header-phone uk-float-right">
+                            <h5 class="uk-margin-remove-bottom">联系我们</h5>
+                            <h3 class="uk-margin-remove-top uk-margin-remove-bottom">86-12345678900</h3>
+                        </div>
+                        <div class="in-header-login uk-float-right">
+                            <a href="signin.html" class="uk-button uk-button-small">登录<span class="uk-margin-small-left" data-uk-icon="icon: fa-sign-in-alt; ratio:0.023"></span></a>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1">                    
+                        <!-- main navigation begin -->
+                        <nav class="uk-navbar-container uk-navbar-transparent uk-visible@m uk-margin-top uk-margin-bottom" data-uk-navbar="">
+                            <div class="uk-navbar-left">        
+                                <ul class="uk-navbar-nav">
+                                    <li>
+                                        <a href="">简介</a>
+                                    </li>
+                                    <li>
+                                        <a href="xinzeng.html">新增</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-uk-icon="icon: fa-sort-down; ratio: 0.023">历史与详情</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li><a href="xihu.html">西湖</a></li>
+                                                <li><a href="qiandao.html">千岛湖</a></li>
+                                                <li><a href="xixi.html">西溪国家湿地公园</a></li>
+                                                <li><a href="lingyin.html">灵隐寺</a></li>
+                                                <li><a href="songcheng.html">宋城</a></li>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>        
+                            </div>
+                        </nav>
+                        </div>
+                        <!-- mobile navigation end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="uk-container">
+            
+        </div>
+    </main>
+    <footer>
+        <div class="uk-section uk-padding-remove-top">
+            <div class="uk-container">
+                <div class="uk-grid">
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-right uk-visible@m">
+                <a href="#" class="in-totop" data-uk-icon="icon: fa-chevron-up; ratio: .032" data-uk-scroll="" data-uk-scrollspy="cls: uk-animation-fade; hidden: true; offset-top: 100px; repeat: true"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="static/js/config.js"></script>
+    <script src="static/js/vendor.js"></script>
+</body>
+</html>

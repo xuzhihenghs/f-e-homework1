@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+<head>    
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Put your site description here">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fda924"> 
+    <!-- Site Properties -->    
+    <title>杭州旅游推荐</title>
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="static/CSS/common.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/CSS/uikit.css">
+    <link rel="stylesheet" href="static/CSS/style.css">
+</head>
+
+<body>    
+    <header data-uk-sticky="top: 400; cls-active: in-sticky">
+        <div class="uk-section uk-padding-remove-vertical">
+            <div class="uk-container">
+                <div class="uk-grid">                
+                    <div class="uk-width-1-3 uk-flex uk-flex-middle">
+                        <!-- header logo begin -->
+                        <div class="uk-grid-collapse in-header-logo" data-uk-grid="">
+                            <a href=""><img src="static/picture/logo.svg" data-src="img/logo.svg" width="195" height="44" alt="logo" data-uk-img=""></a>
+                        </div>
+                        <!-- header logo end -->
+                    </div>
+                    <div id="lottery_list_block" class="uk-width-1-3 uk-flex uk-flex-middle"> 
+                        <form id="search_form" class="form-inline" name="search" method="get" action="search">
+                        <span class="box-style">
+                            <select id="header_search_type" class="box-style round-pill">
+                                <option value="xihu">西湖</option>
+                                <option value="qiandao">千岛湖</option>
+                                <option value="xixi">西溪国家湿地公园</option>
+                                <option value="lingyin">灵隐寺</option>
+                                <option value="songcheng">宋城</option>
+                            </select>
+                        </span>
+                        <span class="box-style">
+                            <select id="main_tag" class="form-control" name="main_tag">
+                                <option value="0">历史</option>
+                                <option value="1">吃喝玩乐</option>
+                            </select>
+                        </span>
+                        <input class="box-form" type="text" placeholder="输入您所在的地级市" name="search_query" autocomplete="off" value="">  
+                        <span>
+                            <button class="box-search-block" type="submit">
+                                <i class="fa fa-search" aria-hidden="true" style="color: #ff7a00;" >
+                                搜索
+                                </i>
+                            </button>
+                        </span>
+                        </form>
+                    </div>
+                    <div class="uk-width-1-3 uk-visible@m in-header-info">
+                        <div class="in-header-phone uk-float-right">
+                            <h5 class="uk-margin-remove-bottom">联系我们</h5>
+                            <h3 class="uk-margin-remove-top uk-margin-remove-bottom">86-12345678900</h3>
+                        </div>
+                        <div class="in-header-login uk-float-right">
+                            <a href="signin.html" class="uk-button uk-button-small">登录<span class="uk-margin-small-left" data-uk-icon="icon: fa-sign-in-alt; ratio:0.023"></span></a>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-1">                    
+                        <!-- main navigation begin -->
+                        <nav class="uk-navbar-container uk-navbar-transparent uk-visible@m uk-margin-top uk-margin-bottom" data-uk-navbar="">
+                            <div class="uk-navbar-left">        
+                                <ul class="uk-navbar-nav">
+                                    <li>
+                                        <a href="">简介</a>
+                                    </li>
+                                    <li>
+                                        <a href="xinzeng.html">新增</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-uk-icon="icon: fa-sort-down; ratio: 0.023">历史与详情</a>
+                                        <div class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li><a href="xihu.html">西湖</a></li>
+                                                <li><a href="qiandao.html">千岛湖</a></li>
+                                                <li><a href="xixi.html">西溪国家湿地公园</a></li>
+                                                <li><a href="lingyin.html">灵隐寺</a></li>
+                                                <li><a href="songcheng.html">宋城</a></li>
+                                        </div>
+                                    </li>
+                                    
+                                </ul>        
+                            </div>
+                        </nav>
+                        </div>
+                        <!-- mobile navigation end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="in-slide-container uk-section uk-padding-remove-vertical uk-margin-medium-bottom" data-uk-scrollspy="cls:uk-animation-fade; delay: 200">
+            <div class="uk-container">
+                <!-- slideshow begin -->
+                <div class="uk-position-relative uk-visible-toggle in-slideshow">
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <div class="uk-height-1-1 uk-flex uk-flex-middle"> 
+                                <div class="uk-width-1-1 uk-width-1-2@m">
+                                    <div class="in-slide-text">
+                                        <span class="uk-label uk-label-warning uk-visible@m">杭州</span>
+                                        <h2 class="uk-margin-top">雷峰塔<br> “西湖十景”之一</h2>
+                                        <p class="uk-visible@m">。。。。。。。。</p>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-width-3-4@m">
+                                    <div class="in-slide-image">
+                                        <img src="static/img/1.jpg" data-src="static/img/1.jpg" alt="image-slide1" width="700" height="500" data-uk-img="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-height-1-1 uk-flex uk-flex-middle">
+                                <div class="uk-width-1-1 uk-width-1-2@m">
+                                    <div class="in-slide-text">
+                                        <span class="uk-label uk-label-warning uk-visible@m">杭州</span>
+                                        <h2 class="uk-margin-top">集贤亭<br> 位于杭州西湖一公园“晚节流香”石碑对面</h2>
+                                        <p class="uk-visible@m">。。。。。</p>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-width-3-4@m">
+                                    <div class="in-slide-image">
+                                        <img src="static/img/2.webp" data-src="static/img/2.webp" alt="image-slide2" width="700" height="500" data-uk-img="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>                    
+                            <div class="uk-height-1-1 uk-flex uk-flex-middle">
+                                <div class="uk-width-1-1 uk-width-1-2@m">
+                                    <div class="in-slide-text">
+                                        <span class="uk-label uk-label-warning uk-visible@m">杭州</span>
+                                        <h2 class="uk-margin-top">荷塘月色<br> 夏季的西湖</h2>
+                                        <p class="uk-visible@m">在上方的搜索框输入您所在的地级市，开始一场未知的旅途吧！</p>
+                                    </div>
+                                </div>
+                                <div class="uk-width-1-1 uk-width-3-4@m">
+                                    <div class="in-slide-image">
+                                        <img src="static/img/4.webp" data-src="static/img/4.webp" alt="image-slide3" width="700" height="500" data-uk-img="">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="uk-slidenav-container">
+                        <a href="#" data-uk-slidenav-previous="" data-uk-slideshow-item="previous"></a>
+                        <a href="#" data-uk-slidenav-next="" data-uk-slideshow-item="next"></a>
+                    </div>
+                </div>
+                <!-- slideshow end -->
+            </div>
+        </div>
+
+        <div class="uk-container"> 
+            <div style="margin:5px 10px 0 10px">
+                <div  style="margin:2px 10px 0 7px;padding:3px 0 0 0">
+                    <div  id=tctitletop10>1、<a  href=xihu.html class=blue14b  target=_blank>杭州西湖</a>  
+                        <span style="padding:0 0 0 20px">
+                            <font  class=f14 color=red>AAAAA</font>
+                        </span> 
+                    </div>
+                    <div id=tctitletop102><div id="Layer1" style="position:absolute; width:100px; height:100px; z-index:10">
+                            <div class=top10list align=center>推荐1</div>
+                        </div>
+                        <div align=center><a  href=xihu.html   target=_blank ><img src=http://h.bytravel.cn/www/0/head/304.gif  class=hpic   alt="杭州西湖" vspace=2 hspace=2></a>
+                        </div>
+                        <div  style="margin:0 0 10px 0" >　　西湖位于杭州市区西面，南北长3．3公里，东西宽2．8公里，总面积5．6平方公里，
+                            环湖一周约15公里，苏堤与白堤把全湖隔为外湖、里湖、岳湖、西里湖和小南湖5个部分。西湖风光秀丽，景色迷人，自古以来
+                            就是名胜。“天下西湖三十六，就中最好是杭州。”西湖三面环山，秦时西湖还是一个海湾，北面宝石山，南面吴山，隔水相对是
+                            伸出海湾的岬角。海潮带来大量泥沙，日积月累，直至隋朝时将西湖与海水隔开，这种由古代浅海演变而成的湖泊在地质学上称
+                            作“泻湖”。西湖风景优美，历代文人墨客吟咏极多。宋柳永有词《望海潮》形容杭州：“东南形胜，三吴都会，钱塘自古繁华，烟
+                            柳画桥，风帘翠幕，参差十万人家。”“重湖叠献清嘉，有三秋桂子，十里荷花。”可见宋时西湖盛况。南宋画院中的画家马远、陈
+                            清波等，画了许多西湖风景画，这些山水风景画的题名就是西湖十景的由来。清康熙帝南巡时题十景，勒石镌碑成了名胜，一直沿
+                            用至今。十景为：苏堤春晓、平湖秋月、柳浪闻莺、花港观鱼、双峰插云、三潭印月、南屏晚钟、雷峰夕照、曲院风荷、断桥残雪。
+                            近几年来，随着旅游事业的发展，景点的整修，1985年评选了西湖新十景：虎跑梦泉、龙井问茶、云栖竹径、满陇桂雨、九溪烟树……
+                            <a  href=xihu.html class=blue >[详细]</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div  style="margin:2px 10px 0 7px;padding:3px 0 0 0">
+                    <div  id=tctitletop10>2、<a  href=qiandao.html class=blue14b  target=_blank>千岛湖</a>  
+                        <span style="padding:0 0 0 20px">
+                            <font  class=f14 color=red>AAAAA</font></span> 
+                    </div>
+                    <div id=tctitletop102><div id="Layer1" style="position:absolute; width:100px; height:100px; z-index:10">
+                        <div class=top10list align=center>推荐2</div>
+                    </div>
+                    <div align=center><a  href=qiandao.html   target=_blank ><img src=http://h.bytravel.cn/www/0/head/326.gif  class=hpic   alt="千岛湖" vspace=2 hspace=2></a>
+                    </div>
+                    <div  style="margin:0 0 10px 0" >　　千岛湖，即新安江水库，位于浙江省杭州市淳安县境内，小部分连接杭州市建德市西北，是为
+                        建新安江水电站拦蓄新安江上游而成的人工湖，1955年始建，1960年建成。距杭州、黄山各150公里，是长江三角洲地区的后花园，景
+                        区内碧水呈奇，千岛百姿，自然风光旖旎，生态环境佳绝，因湖内拥有1078座翠岛而得名。千岛湖因其山青、水秀、洞奇、石怪而被誉
+                        为“千岛碧水画中游”。它的湖区面积573平方公里，湖中拥有形态各异的大小岛屿1078座，平均水深34米，能见度最高达12米，属国家
+                        一级水体，被原新华社社长穆青赞誉为“天下第一秀水”，整个湖区分为东北、东南、西北、西南、中心五大湖区。千岛湖碧波万倾，千
+                        岛竟秀，群山叠翠，峡谷幽深，溪涧清秀，洞石奇异，还有种类众多的生物资源，文物古迹和丰富的土特产品，构成了享誉中外的岛湖
+                        风景特点。近年来，经过大规模的改造和建设，已形成了品位较高、内涵丰富的羡山、屏峰、梅峰、龙山、动物野趣、石林六大景区的
+                        14处景点。千岛湖的美可用“绿”和“清”两个字来概括。我们先来说说“绿”。千岛湖的绿色层次分明，错落幽美。从表面上看，一眼望
+                        去，千岛湖是单纯的绿色。湖区四周绵延起伏的远山，层层叠叠，……
+                        <a  href=qiandao.html class=blue >[详细]</a>
+                    </div>
+                </div>
+            </div>
+            <div  style="margin:2px 10px 0 7px;padding:3px 0 0 0">
+                <div  id=tctitletop10>3、<a  href=xixi.html class=blue14b  target=_blank>西溪国家湿地公园</a>  
+                    <span style="padding:0 0 0 20px">
+                            <font  class=f14 color=red>AAAAA</font></span> 
+                </div>
+                <div id=tctitletop102><div id="Layer1" style="position:absolute; width:100px; height:100px; z-index:10">
+                    <div class=top10list align=center>推荐3</div>
+                </div>
+                <div align=center><a  href=xixi.html   target=_blank ><img src=http://h.bytravel.cn/www/5/head/5395.gif  class=hpic   alt="西溪国家湿地公园" vspace=2 hspace=2></a>
+                </div>
+                <div  style="margin:0 0 10px 0" >　　西溪国家湿地公园坐落于浙江省杭州市区西部，离杭州主城区武林门只有6公里，距西湖仅
+                            5公里。公园总面积约为11.5平方公里，分为东部湿地生态保护培育区、中部湿地生态旅游休闲区和西部湿地生态景观封育区。湿地公园是
+                            一个集城市湿地、农耕湿地、文化湿地于一体的国家湿地公园。2009年11月03日，被列入国际重要湿地名录。2012年1月10日，被评为国家
+                            AAAAA级旅游景区。西溪湿地是国内第一个也是唯一的集城市湿地、农耕湿地、文化湿地于一体的国家湿地公园。电影《非诚勿扰》的曾在
+                            此取景。西溪，古称河渚，“曲水弯环，群山四绕，名园古刹，前后踵接，又多芦汀沙溆”。南宋高宗赵构曾想建行宫于止，奈何经费不足而
+                            作罢，只留下“西溪且留下”的遗憾。西溪国家湿地公园有“三堤十景”，三堤分别是福堤、绿堤、寿堤，十景分别是秋芦飞雪、火柿映波、龙
+                            舟胜会、莲滩鹭影、洪园余韵、蒹葭泛月、渔村烟雨、曲水寻梅、高庄晨迹、河渚听曲。西溪之胜，独在于水。水是西溪的灵魂。西溪湿地
+                            占地10.38平方公里。园区约70%的面积为河港、池塘、湖漾、沼泽，正所谓“一曲溪流一曲烟”，整个园区六条河流纵横交汇，水道如巷、河
+                            汊如网、鱼塘栉比如鳞、诸岛棋……
+                            <a  href=xixi.html class=blue >[详细]</a>
+                </div>
+                </div>
+            </div>
+            <div  style="margin:2px 10px 0 7px;padding:3px 0 0 0">
+                    <div  id=tctitletop10>4、<a  href=lingyin.html class=blue14b  target=_blank>灵隐寺</a>  
+                        <span style="padding:0 0 0 20px">
+                            <font  class=f14 color=red>AAAA</font></span> 
+                    </div>
+                    <div id=tctitletop102><div id="Layer1" style="position:absolute; width:100px; height:100px; z-index:10"><div class=top10list align=center>推荐4</div>
+                    </div><div align=center><a  href=lingyin.html   target=_blank ><img src=http://h.bytravel.cn/www/10/head/9918.gif  class=hpic    vspace=2 hspace=2>
+                    </a></div><div  style="margin:0 0 10px 0" >　　灵隐寺，又名云林寺，背靠北高峰，面朝飞来峰，是人们学佛、观光、祈福、休闲的佛教胜
+                        地。灵隐自创建以来，高僧云集，文人荟萃，儒释交融，谈禅论道，一吟一咏早己蔚然成为文化大观。飞来峰是禅宗五山之首，其石刻造像是中
+                        国南方石窟艺术的重要作品。永福寺位于灵隐之西的石笋峰下，有着恢宏的气势、幽雅的环境、丰厚的历史人文景观和浓郁的佛教文化气息。法
+                        镜寺位于飞来峰顶南下，是天竺历史最久、兴盛最早的寺院。
+                        <a  href=lingyin.html class=blue >[详细]</a>
+                    </div>
+                </div>
+            </div>
+            <div  style="margin:2px 10px 0 7px;padding:3px 0 0 0">
+                <div  id=tctitletop10>4、<a  href=songcheng.html class=blue14b  target=_blank>宋城</a>  
+                </div>
+                <div id=tctitletop102><div id="Layer1" style="position:absolute; width:100px; height:100px; z-index:10"><div class=top10list align=center>推荐5</div>
+                </div>
+                <div align=center><a  href=songcheng.html   target=_blank ><img src=http://h.bytravel.cn/www/10/head/9918.gif  class=hpic    vspace=2 hspace=2>
+                    </a></div><div  style="margin:0 0 10px 0" >　　宋城位于杭州之江旅游度假区内，是杭州一个大型人造主题公园。宋城以“建筑为形，文化为
+                        魂”为经营理念，仿宋代风格建造，主体建筑依据北宋画家张择端的长卷《清明上河图》而建，并按照宋书《营造法式》建造。景区内斗拱飞檐、车
+                        水马龙，还原了宋代都市风貌，是杭州一个反映两宋文化内涵的主题公园。
+                    <a  href=songcheng.html class=blue >[详细]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="uk-section uk-padding-remove-top">
+            <div class="uk-container">
+                <div class="uk-grid">
+                </div>
+            </div>
+            <div class="uk-flex uk-flex-right uk-visible@m">
+                <a href="#" class="in-totop" data-uk-icon="icon: fa-chevron-up; ratio: .032" data-uk-scroll="" data-uk-scrollspy="cls: uk-animation-fade; hidden: true; offset-top: 100px; repeat: true"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="static/js/config.js"></script>
+    <script src="static/js/vendor.js"></script>
+</body>
+</html>
